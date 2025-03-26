@@ -1,3 +1,29 @@
+import HookUse from "./Component/HookUse";
+
+
+export default function App(){
+  return(<div>
+    <HookUse></HookUse>
+  </div>)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
 import { useState } from "react";
 import { Suspense } from "react";
 import { lazy } from "react"
@@ -18,4 +44,4 @@ export default function App(){
       }
    <button onClick={()=>handleLoad()} >Load User</button>
   </div>)
-}
+} */
