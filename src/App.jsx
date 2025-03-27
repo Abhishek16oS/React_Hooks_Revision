@@ -1,9 +1,10 @@
-import HookUse from "./Component/HookUse";
+
+import HookUseActionState from "./Component/HookUseActionState";
 
 
 export default function App(){
   return(<div>
-    <HookUse></HookUse>
+    <HookUseActionState></HookUseActionState>
   </div>)
 }
 
