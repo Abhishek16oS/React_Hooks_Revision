@@ -1,4 +1,5 @@
-import ApiUse from "./Component/ApiUse";
+import HookUseFormStatus from "./Component/HookUseFormStatus";
+
 
 
 export default function App(){
@@ -6,7 +7,7 @@ export default function App(){
 
 
   return(<div>
-    <ApiUse></ApiUse>  
+    <HookUseFormStatus></HookUseFormStatus>
   </div>)
 }
 
