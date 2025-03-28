@@ -1,10 +1,12 @@
-
-import HookUseActionState from "./Component/HookUseActionState";
+import ApiUse from "./Component/ApiUse";
 
 
 export default function App(){
+
+
+
   return(<div>
-    <HookUseActionState></HookUseActionState>
+    <ApiUse></ApiUse>  
   </div>)
 }
 
