@@ -1,4 +1,5 @@
-import HookUseFormStatus from "./Component/HookUseFormStatus";
+import HookUseContext from "./Component/HookUseContext";
+
 
 
 
@@ -7,7 +8,7 @@ export default function App(){
 
 
   return(<div>
-    <HookUseFormStatus></HookUseFormStatus>
+    <HookUseContext></HookUseContext>
   </div>)
 }
 

@@ -10,8 +10,7 @@ export default function HookUseReducer() {
   };
 
   function reducer(state, formData) {
-   
-
+  
 
     return ({...state,[formData.type]:formData.val})
 
