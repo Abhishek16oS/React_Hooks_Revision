@@ -1,5 +1,5 @@
 export default function Department(){
-    return(<>
+    return(<div>
         <h1>Department Page</h1>
-    </>)
+    </div>)
 }
