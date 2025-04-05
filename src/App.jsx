@@ -1,14 +1,54 @@
-import { Route, Routes,Navigate,NavLink } from "react-router";
-import Home from "./Component/React Router/Home";
-import NavBar from "./Component/React Router/NavBar";
-import User from "./Component/React Router/User";
-import College from "./Component/React Router/College";
-import Subject from "./Component/React Router/Subject";
-import Student from "./Component/React Router/Student";
-import Department from "./Component/React Router/Department";
-
+import { useState } from "react";
+import { SubjectChoosen } from "./Component/Context Api/Start";
+import University from "./Component/Context Api/University";
 
 export default function App() {
+  const [subject, setSubject] = useState('');
+  
+  return (
+    <div>
+      <SubjectChoosen.Provider value={subject}>
+        <div>
+          <label className="text-gray-900" htmlFor="Subjects">Choose a subject:</label>
+          <select onChange={(e) => setSubject(e.target.value)} className="text-gray-950" name="" id="Subjects">
+            <option value="">Choose Subject</option>
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+            <option value="IT">IT</option>
+            <option value="Maths">Maths</option>
+            <option value="Science">Science</option>
+          </select>
+        </div>
+        <University />
+      </SubjectChoosen.Provider>
+    </div>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+
+
+
+
+/* export default function App() {
   return (
     <div>
       <NavLink></NavLink>
@@ -31,7 +71,7 @@ export default function App() {
       </Routes>
     </div>
   );
-}
+} */
 
 /* 
 
