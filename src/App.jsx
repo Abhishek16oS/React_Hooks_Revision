@@ -1,4 +1,5 @@
 import HookUseRef from "./Component/HookUseRef";
+import HookUseState1 from "./Component/RightApproach/HookUseState";
 
 
 export default function App(){
@@ -8,7 +9,7 @@ export default function App(){
 
   return(<>
 
-   <HookUseRef></HookUseRef>
+  <HookUseState1></HookUseState1>
 
   </>)
 
